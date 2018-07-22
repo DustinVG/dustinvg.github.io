@@ -59,7 +59,10 @@ nav a {
 
 .stream_links {
 	text-align: center;
+	background: white;
 	text-shadow: 3px 2px black;
+	border-style: solid;
+	max-width: 600px;
 }
 
 .stream_info {
