@@ -44,20 +44,24 @@ nav a {
 	margin: auto;
 	padding-top: 28px;
 }
+
 .stream_embed {
     display:table-cell;
     min-width: 200px;
     height: 100%;
 }
+
 .chat_embed {
     display: table-cell;
     width: auto;
     height: 300px; 	
 }
+
 .stream_links {
 	text-align: center;
 	text-shadow: 3px 2px black;
-}	
+}
+
 .stream_info {
 	text-align: center;
 	color: white;
