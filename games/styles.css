@@ -55,6 +55,7 @@ nav a {
     display:table-cell;
     min-width: 320px;
 	max-width: 320px;
+	background: white;
     height: 100%;
 	border-style: solid;
 }
@@ -63,6 +64,7 @@ nav a {
     display:table-cell;
     min-width: 320px;
 	max-width: 320px;
+	background: white;
     height: 100%;
 	border-style: solid;
 }
