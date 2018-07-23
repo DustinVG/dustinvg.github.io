@@ -31,3 +31,19 @@ nav a {
   color: black;
   padding: 3px 8px;
 }
+
+.news_table {
+    display: table;
+	margin: auto;
+	padding-top: 28px;
+}
+
+.twitter-timeline {
+	display:table-cell;
+    height: 100%;
+}
+
+.tumblr-timeline {
+	display:table-cell;
+    height: 100%;
+}
