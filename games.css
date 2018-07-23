@@ -45,26 +45,27 @@ nav a {
 	text-shadow: 3px 2px black;
 }
 
-.games_table {
+.completed_header, .wip_header {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	text-shadow: 3px 2px black;
+}
+
+.games_table, .wipgames_table {
     display: table;
 	margin: auto;
 	padding-top: 28px;
 }
 
-.gamelist_2 {
+.gamelist_1, .gamelist_2, .wipgamelist_1, .wipgamelist_2 {
     display:table-cell;
+	margin: auto;
     min-width: 320px;
 	max-width: 320px;
 	background: white;
     height: 100%;
 	border-style: solid;
-}
-
-.gamelist_1 {
-    display:table-cell;
-    min-width: 320px;
-	max-width: 320px;
-	background: white;
-    height: 100%;
-	border-style: solid;
+	box-shadow: 5px 5px;
+	padding: 8px;
 }
