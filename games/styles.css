@@ -31,3 +31,38 @@ nav a {
   color: black;
   padding: 3px 8px;
 }
+
+.games_header {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	text-shadow: 3px 2px black;
+}
+
+.games_desc {
+	text-align: center;
+	color: white;
+	text-shadow: 3px 2px black;
+}
+
+.games_table {
+    display: table;
+	margin: auto;
+	padding-top: 28px;
+}
+
+.gamelist_2 {
+    display:table-cell;
+    min-width: 320px;
+	max-width: 320px;
+    height: 100%;
+	border-style: solid;
+}
+
+.gamelist_1 {
+    display:table-cell;
+    min-width: 320px;
+	max-width: 320px;
+    height: 100%;
+	border-style: solid;
+}
