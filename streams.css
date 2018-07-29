@@ -74,13 +74,14 @@ nav a {
 	margin: auto;
 }
 
-.ytce {
-	margin: auto;
-}
-
 .vid_header {
 	text-align: center;
 	font-size: 40px;
 	color: white;
 	text-shadow: 3px 2px black;
+}
+
+.ytce {
+	text-shadow: 3px 2px black;
+	margin: auto;
 }
