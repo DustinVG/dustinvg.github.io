@@ -81,7 +81,9 @@ nav a {
 	text-shadow: 3px 2px black;
 }
 
-.ytce {
-	text-shadow: 3px 2px black;
+.yt_rss {
+	background: black;
+	border-style: solid;
+	box-shadow: 5px 5px;
 	margin: auto;
 }
