@@ -63,6 +63,7 @@ nav a {
 	border-style: solid;
 	max-width: 600px;
 	margin: auto;
+	box-shadow: 5px 5px;
 }
 
 .stream_info {
@@ -70,6 +71,10 @@ nav a {
 	color: white;
 	text-shadow: 3px 2px black;
 	max-width: 1000px;
+	margin: auto;
+}
+
+.youtube-feed {
 	margin: auto;
 }
 
