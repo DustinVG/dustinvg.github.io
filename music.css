@@ -1,0 +1,44 @@
+body {
+}
+
+h1 {
+	text-shadow: 3px 2px black;
+    color: white;
+	text-align: center;
+}
+
+p {
+	text-shadow: 3px 2px black;
+    color: white;
+	text-align: center;
+}
+
+main {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+header, nav {
+  text-align: center;
+  background: white;
+  border-style: solid;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 3px 8px;
+}
+
+.embed_table {
+	display: table;
+	margin: auto;
+	padding-top: 28px;
+}
+
+.soundcloud_embed {
+	display: table-cell;
+	min-width: 640px;
+}
