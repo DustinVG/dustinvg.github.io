@@ -41,11 +41,13 @@ nav a {
 .twitter-timeline {
 	display:table-cell;
     height: 100%;
+	margin: auto;
 }
 
-.tumblr-timeline {
+.tumblr-rss {
 	display:table-cell;
-    height: 100%;
+	background: black;
+	margin: auto;
 }
 
 .donate_button {
