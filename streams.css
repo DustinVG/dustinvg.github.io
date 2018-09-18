@@ -1,4 +1,6 @@
 body {
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 h1 {
@@ -20,15 +22,20 @@ main {
 
 header, nav {
   text-align: center;
-  background: white;
-  border-style: solid;
+  background: black;
   margin: 20px 0;
+
+  border: 10px solid transparent;
   padding: 10px;
+  border-image-source: url(img/texture.png);
+  border-image-repeat: round;
+  border-image-slice: 16;
+  border-image-width: 10px;    
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 3px 8px;
 }
 
@@ -59,11 +66,16 @@ nav a {
 
 .stream_links {
 	text-align: center;
-	background: white;
-	border-style: solid;
+	background: black;
 	max-width: 600px;
 	margin: auto;
-	box-shadow: 5px 5px;
+	
+	border: 10px solid transparent;
+	padding: 10px;
+	border-image-source: url(img/texture.png);
+	border-image-repeat: round;
+	border-image-slice: 16;
+	border-image-width: 10px; 
 }
 
 .stream_info {

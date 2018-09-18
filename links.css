@@ -1,4 +1,6 @@
 body {
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 h1 {
@@ -20,15 +22,20 @@ main {
 
 header, nav {
   text-align: center;
-  background: white;
-  border-style: solid;
+  background: black;
   margin: 20px 0;
+
+  border: 10px solid transparent;
   padding: 10px;
+  border-image-source: url(img/texture.png);
+  border-image-repeat: round;
+  border-image-slice: 16;
+  border-image-width: 10px;    
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 3px 8px;
 }
 
@@ -56,9 +63,14 @@ nav a {
 	margin: auto;
     min-width: 320px;
 	max-width: 320px;
-	background: white;
+	background: black;
     height: 100%;
-	border-style: solid;
-	box-shadow: 5px 5px;
-	padding: 8px;
+	color: white;
+	
+	border: 10px solid transparent;
+    padding: 10px;
+	border-image-source: url(img/texture.png);
+	border-image-repeat: round;
+	border-image-slice: 16;
+	border-image-width: 10px; 
 }
