@@ -23,6 +23,7 @@ main {
 header, nav {
   text-align: center;
   background: black;
+  background-clip: padding-box;
   margin: 20px 0;
 
   border: 10px solid transparent;
@@ -30,7 +31,7 @@ header, nav {
   border-image-source: url(img/texture.png);
   border-image-repeat: round;
   border-image-slice: 16;
-  border-image-width: 10px;    
+  border-image-width: 10px; 
 }
 
 nav a {
