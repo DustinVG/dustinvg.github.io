@@ -50,7 +50,19 @@ nav a {
 .twitch_table {
     display: table;
 	margin: auto;
-	padding-top: 28px;
+	background-color: black;
+
+	border: 10px solid transparent;
+	border-image-source: url(img/texture.png);
+	border-image-repeat: round;
+	border-image-slice: 16;
+	border-image-width: 10px; 
+	
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
 }
 
 .stream_embed {
@@ -83,9 +95,15 @@ nav a {
 .stream_info {
 	text-align: center;
 	color: white;
-	text-shadow: 3px 2px black;
 	max-width: 1000px;
 	margin: auto;
+	background-color: black;
+	
+	border: 10px solid transparent;
+	border-image-source: url(img/texture.png);
+	border-image-repeat: round;
+	border-image-slice: 16;
+	border-image-width: 10px; 
 }
 
 .vid_header {
