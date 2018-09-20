@@ -51,6 +51,7 @@ nav a {
     display: table;
 	margin: auto;
 	background-color: black;
+	background-clip: padding-box;
 
 	border: 10px solid transparent;
 	border-image-source: url(img/texture.png);
@@ -98,6 +99,7 @@ nav a {
 	max-width: 1000px;
 	margin: auto;
 	background-color: black;
+	background-clip: padding-box;
 	
 	border: 10px solid transparent;
 	border-image-source: url(img/texture.png);
