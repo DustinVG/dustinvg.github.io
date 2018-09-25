@@ -83,3 +83,8 @@ nav a {
     border-image-slice: 16;
     border-image-width: 10px;  
 }
+
+.copyright_info {
+	color: white;
+	text-shadow: 3px 2px black;
+}
