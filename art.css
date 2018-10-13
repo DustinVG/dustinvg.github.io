@@ -1,0 +1,61 @@
+body {
+}
+
+h1 {
+	text-shadow: 3px 2px black;
+    color: white;
+	text-align: center;
+}
+
+p {
+	text-shadow: 3px 2px black;
+    color: white;
+	text-align: center;
+}
+
+main {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+header, nav {
+  text-align: center;
+  background: black;
+  margin: 20px 0;
+  background-clip: padding-box;
+
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image-source: url(img/texture.png);
+  border-image-repeat: round;
+  border-image-slice: 16;
+  border-image-width: 10px;    
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 3px 8px;
+}
+
+.art_header {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	text-shadow: 3px 2px black;
+}
+
+.art_info, .art_list1 {
+	text-align: center;
+	color: white;
+	max-width: 1000px;
+	margin: auto;
+	background-color: black;
+	background-clip: padding-box;
+	
+	border: 10px solid transparent;
+	border-image-source: url(img/texture.png);
+	border-image-repeat: round;
+	border-image-slice: 16;
+	border-image-width: 10px; 
+}
