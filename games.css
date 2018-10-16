@@ -13,6 +13,10 @@ p {
 	text-align: center;
 }
 
+a {
+    color: lightblue;
+}
+
 main {
   margin: 20px 0;
   padding: 10px;
