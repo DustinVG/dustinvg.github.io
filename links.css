@@ -45,10 +45,32 @@ nav a {
 	text-shadow: 3px 2px black;
 }
 
-.links_desc {
+.profiles_header, .links_header2 {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-shadow: 3px 2px black;
+}
+
+.profiles_desc, .links_desc {
 	text-align: center;
 	color: white;
 	text-shadow: 3px 2px black;
+}
+
+.profiles_list {
+	text-align: center;
+	color: white;
+	max-width: 1000px;
+	margin: auto;
+	background-color: black;
+	background-clip: padding-box;
+	
+	border: 10px solid transparent;
+	border-image-source: url(img/texture.png);
+	border-image-repeat: round;
+	border-image-slice: 16;
+	border-image-width: 10px; 
 }
 
 .links_table {
