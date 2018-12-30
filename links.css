@@ -49,14 +49,14 @@ nav a {
 	text-shadow: 3px 2px black;
 }
 
-.profiles_header, .links_header2 {
+.profiles_header, .links_header2, .clubsaturn_header {
 	text-align: center;
 	font-size: 30px;
 	color: white;
 	text-shadow: 3px 2px black;
 }
 
-.profiles_desc, .links_desc {
+.profiles_desc, .links_desc, .clubsaturn_desc {
 	text-align: center;
 	color: white;
 	text-shadow: 3px 2px black;
@@ -77,13 +77,19 @@ nav a {
 	border-image-width: 10px; 
 }
 
+.clubsaturn_table {
+	display: table;
+	margin: auto;
+	padding-top: 28px;
+}
+
 .links_table {
     display: table;
 	margin: auto;
 	padding-top: 28px;
 }
 
-.link_1, .link_2 {
+.link_1, .link_2, .cs_link_1, .cs_link_2 {
     display:table-cell;
 	margin: auto;
     min-width: 320px;
