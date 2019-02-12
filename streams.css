@@ -86,6 +86,7 @@ nav a {
 	max-width: 600px;
 	margin: auto;
 	background-clip: padding-box;
+	color: white;
 	
 	border: 10px solid transparent;
 	padding: 10px;
