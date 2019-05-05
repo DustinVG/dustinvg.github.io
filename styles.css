@@ -75,4 +75,5 @@ nav a {
 	display:table-cell;
 	margin: auto;
 	text-align: center;
+	padding-left: 8px;
 }
