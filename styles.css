@@ -60,12 +60,19 @@ nav a {
 	margin: auto;
 }
 
+.money_table {
+	display: table;
+	margin: auto;
+}
+
 .donate_button {
+	display:table-cell;
 	margin: auto;
 	text-align: center;
 }
 
 .patreon_button {
+	display:table-cell;
 	margin: auto;
 	text-align: center;
 }
