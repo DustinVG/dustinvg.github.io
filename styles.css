@@ -54,12 +54,6 @@ nav a {
 	margin: auto;
 }
 
-.tumblr-rss {
-	display:table-cell;
-	background: black;
-	margin: auto;
-}
-
 .money_table {
 	display: table;
 	margin: auto;
@@ -76,4 +70,10 @@ nav a {
 	margin: auto;
 	text-align: center;
 	padding-left: 8px;
+}
+
+.no_pressure {
+	margin: auto;
+	text-align: center;
+	color: white;
 }
