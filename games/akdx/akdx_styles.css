@@ -1,0 +1,48 @@
+body {
+}
+
+h1 {
+	text-shadow: 3px 2px black;
+    color: white;
+	text-align: center;
+}
+
+p {
+	text-shadow: 3px 2px black;
+    color: white;
+	text-align: center;
+}
+
+a {
+    color: lightblue;
+}
+
+main {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+header, nav {
+  text-align: center;
+  background: black;
+  background-clip: padding-box;
+  margin: 20px 0;
+
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image-source: url(img/texture.png);
+  border-image-repeat: round;
+  border-image-slice: 16;
+  border-image-width: 10px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 3px 8px;
+}
+
+.unfinished {
+	text-align: center;
+	color: white;
+}
