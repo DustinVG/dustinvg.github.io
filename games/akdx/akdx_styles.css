@@ -76,3 +76,9 @@ nav a {
 .features {
 	color: white;
 }
+
+.copyright {
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
