@@ -1,0 +1,84 @@
+body {
+}
+
+h1 {
+	text-shadow: 3px 2px black;
+    color: white;
+	text-align: center;
+}
+
+p {
+	text-shadow: 3px 2px black;
+    color: white;
+	text-align: center;
+}
+
+a {
+    color: lightblue;
+}
+
+main {
+  margin: auto;
+  padding: 10px;
+  background: black;
+  border: solid;
+  border-color: white;
+  max-width: 75%
+}
+
+header, nav {
+  text-align: center;
+  background: black;
+  background-clip: padding-box;
+  margin: 20px 0;
+
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image-source: url(img/texture.png);
+  border-image-repeat: round;
+  border-image-slice: 16;
+  border-image-width: 10px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 3px 8px;
+}
+
+.logoimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 414px;
+}
+
+.navbar {
+	text-align: center;
+	color: white;
+}
+
+.screenshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+}
+
+.story {
+	color: white;
+}
+
+.whatisthis {
+	color: white;
+}
+
+.features {
+	color: white;
+}
+
+.copyright {
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
