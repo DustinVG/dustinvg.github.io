@@ -19,14 +19,13 @@ a {
 
 main {
   margin: auto;
-  padding: 10px;
-  background: black;
+  background: #3F32B4;
   min-width: 1056px;
   max-width: 1184px;
+  text-shadow: -1px -1px black, 1px 1px black, -1px 1px black, 1px -1px black;
   
   border: 10px solid transparent;
-  padding: 10px;
-  border-image-source: url(sak/texture.png);
+  border-image-source: url(saktexture.png);
   border-image-repeat: round;
   border-image-slice: 16;
   border-image-width: 10px;
