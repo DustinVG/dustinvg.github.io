@@ -21,10 +21,15 @@ main {
   margin: auto;
   padding: 10px;
   background: black;
-  border: solid;
-  border-color: white;
   min-width: 1056px;
   max-width: 1184px;
+  
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image-source: url(sak/texture.png);
+  border-image-repeat: round;
+  border-image-slice: 16;
+  border-image-width: 10px;
 }
 
 header, nav {
