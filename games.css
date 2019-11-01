@@ -68,7 +68,7 @@ nav a {
 	padding-top: 28px;
 }
 
-.gamelist_1, .gamelist_2, .wipgamelist_1, .wipgamelist_2 {
+.gamelist_1, .gamelist_2, .wipgamelist_1, .wipgamelist_2, .wipgamelist_3 {
     display:table-cell;
 	margin: auto;
     min-width: 320px;
