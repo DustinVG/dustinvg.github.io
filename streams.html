@@ -31,12 +31,26 @@ Dustin Streams
 
 <div class="twitch_table">
 
-<div class="stream_embed" align="center">
-<iframe src="https://player.twitch.tv/?channel=dustinvg" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
-</div>
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="stream_embed"></div>
+<script type="text/javascript">
+  var options = {
+    width: 600,
+    height: 400,
+    channel: "dustinvg"
+  };
+  var player = new Twitch.Player("stream_embed", options);
+  player.setVolume(0.5);
+</script>
 
 <div class="chat_embed" align="right">
-<iframe src="https://www.twitch.tv/embed/dustinvg/chat" frameborder="0" scrolling="no" height="378" width="350"></iframe>
+<iframe frameborder="1"
+        scrolling="no"
+        id="dustinvg"
+        parent="dustinvg.github.io/streams"
+        height="400"
+        width="200">
+</iframe>
 </div>
 
 </div>
