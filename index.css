@@ -61,7 +61,7 @@ html, body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 15%;
+	padding-left: 13%;
 	z-index: 4;
 	animation: fadeIn ease 2s;
 	-webkit-animation: fadeIn ease 2s;
@@ -114,6 +114,7 @@ html, body {
 
 .vehicle {
 	position: fixed;
+	left: 0px;
 	bottom: 0px;
 	margin: auto;
     width:100%;
